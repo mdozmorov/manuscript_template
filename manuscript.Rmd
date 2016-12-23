@@ -1,0 +1,38 @@
+---
+# title: "Manuscript title"
+csl: styles.ref/genomebiology.csl
+output: 
+  word_document:
+    reference_docx: styles.doc/NIH_grant_style.docx
+bibliography: references.bib
+---
+
+# Abstract
+
+### Keywords
+
+# Introduction
+
+# Methods
+
+# Results
+
+How to insert single [@Dozmorov:2016aa][@Glass:2016aa] or multiple references [@Dozmorov:2016aa; @Glass:2016aa].
+
+# Discussion
+
+# Abbreviations
+
+# Acknowledgements
+
+_Conflict of Interest._ None.
+
+# Funding
+
+# Tables
+
+# Figure legends
+
+# Supplementary material
+
+# References
