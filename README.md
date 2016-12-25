@@ -6,4 +6,4 @@
 
 - `styles.ref` - style files defining how (for which journal) references should be rendered. More at https://www.zotero.org/styles
 
-- `styles.doc` - DOCX template defining margins and font styles in the knitted Word document
+- `styles.doc` - DOCX template defining margins and font styles in the knitted Word document. How-to at http://rmarkdown.rstudio.com/articles_docx.html
