@@ -4,6 +4,8 @@
 
 - `bioinformatics.csl` - Bioinformatics
 
+- `bmc-bioinformatics.csl` - BMC Bioinformatics
+
 - `genomebiology.csl` - Genome Biology References
 
 - `plos-computational-biology.csl` - PLOS Computational Biology
