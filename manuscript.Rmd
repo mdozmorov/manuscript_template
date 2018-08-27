@@ -1,11 +1,13 @@
 ---
-# title: "Manuscript title"
+title: "Manuscript title"
 csl: styles.ref/genomebiology.csl
 output: 
   word_document:
     reference_docx: styles.doc/NIH_grant_style.docx
 bibliography: references.bib
 ---
+
+Authors
 
 # Abstract
 
@@ -19,6 +21,10 @@ bibliography: references.bib
 
 How to insert single [@Dozmorov:2016aa][@Glass:2016aa] or multiple references [@Dozmorov:2016aa; @Glass:2016aa].
 
++-------+
+| ![](figures/chicken.png)      |
+| **Figure 1. How to insert a figure.** Chicken chicken chicken.     |
++-------+
 # Discussion
 
 # Abbreviations
