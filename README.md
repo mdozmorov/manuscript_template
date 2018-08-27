@@ -2,12 +2,20 @@
 
 Track/commit only text files (R, md, Rmd, txt, csv)! Do not commit large binary files (docx, xlsx, pptx, etc.) into GitHub repository. Every time such a file change, it changes completely and gets committed as such. This will grow your GitHub repository very fast. If needed, clean the repository using https://rtyley.github.io/bfg-repo-cleaner/
 
+## Writing tips
+
 - Keep the central idea in mind, and make a list of points to illustrate it. 
 - Be critical and creative, ask any questions you may think of, develop strategies to answer them. 
 - Make a structured strategy to answer your questions. Think bulletpoints.
 - Name your bulletpoints like newspaper headers - they should tell the story without the need to read the writeup.
+- Address the following questions under each header:
+    - What is the question?
+    - Which data is used?
+    - What methods are used?
+    - What is the take home message?
 - Don't run your analyses on full datasets. Make sure your pipeline _works from start to finish_ on a small subset of the data, then scale up.
 - Read more, get inspiration from how others present results, what they discuss, which figures they show.
+- As you add files, describe them in the `README.md`. Add brief description of each file.
 
 ## Files
 
