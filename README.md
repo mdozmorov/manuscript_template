@@ -25,11 +25,11 @@ Track/commit only text files (R, md, Rmd, txt, csv)! Do not commit large binary 
 
 ## Folders
 
-- `figures` - folder to store figures. Work-in-progress figures should be stored in PNG format. Publication-quality figures should be stored in TIFF format, 300dpi. Name figures as `Figure_X_<brief description>.png`. Add figures to the manuscript. Add legends.
+- `figures` - folder to store figures. Work-in-progress figures should be stored in PNG format. Publication-quality figures should be stored in TIFF format, 300dpi. Name figures as `Figure_X_<brief description>.png`. Add figures to the manuscript. Add legends to `figure_legends.md`.
 
-- `tables` - folder to store tables. Work-in-progress tables should be stored in CSV format. Publication-quality tables may be stored as XLSX or PDF files. Name tables as `Table_X_<brief description.csv`. Add table legends to the manuscript.
+- `tables` - folder to store tables. Work-in-progress tables should be stored in CSV format. Publication-quality tables may be stored as XLSX or PDF files. Name tables as `Table_X_<brief description.csv`. Add table legends to `table_legend.md`.
 
-- `supplementary` - folder for supplementary files. Name them as `Supplementary_<Table or Figure or File>_<brief description>`. Add legends for supplementary files to the manuscript.
+- `supplementary` - folder for supplementary files. Name them as `Supplementary_<Table or Figure or File>_<brief description>`. Add legends for supplementary files to `supplementary_legend.md`.
 
 - `submission` - folder only for files formatted for submission. 
 
