@@ -10,9 +10,9 @@ Track/commit only text files (R, md, Rmd, txt, csv)! Do not commit large binary 
 - Name your bulletpoints like newspaper headers - they should tell the story without the need to read the writeup.
 - Address the following questions under each header:
     - What is the question?
-    - Which data is used?
-    - What methods are used?
-    - What is the take home message?
+    - What data/methods are used?
+    - Any relevant details/results?
+    - What is the answer (take home message)?
 - Don't run your analyses on full datasets. Make sure your pipeline _works from start to finish_ on a small subset of the data, then scale up.
 - Read more, get inspiration from how others present results, what they discuss, which figures they show.
 - As you add files, describe them in the `README.md`. Add brief description of each file.
@@ -41,4 +41,5 @@ Track/commit only text files (R, md, Rmd, txt, csv)! Do not commit large binary 
     - `Arial_11_single_space_normal_margins.docx` - Arial font, 11 pt, all headers are also Arial, all fonts are black, single-spaced, regular margins
     - `NIH_grant_style.docx` - Arial font, 11 pt, all headers are also Arial, all fonts are black, narrow margins
     - `nar_word_template.doc` - generic template provided by NAR
+    - `Times_12_single_space_normal_margins.docx` - standard formatting
 
