@@ -21,8 +21,6 @@ Track/commit only text files (R, md, Rmd, txt, csv)! Do not commit large binary 
 
 - `manuscript.Rmd` - Rmd skeleton of a manuscript
 
-- `references.bib` - BibTex references example
-
 ## Folders
 
 - `figures` - folder to store figures. Work-in-progress figures should be stored in PNG format. Publication-quality figures should be stored in TIFF format, 300dpi. Name figures as `Figure_X_<brief description>.png`. Add figures to the manuscript. Add legends to `figure_legends.md`.
@@ -30,6 +28,8 @@ Track/commit only text files (R, md, Rmd, txt, csv)! Do not commit large binary 
 - `tables` - folder to store tables. Work-in-progress tables should be stored in CSV format. Publication-quality tables may be stored as XLSX or PDF files. Name tables as `Table_X_<brief description.csv`. Add table legends to `table_legend.md`.
 
 - `supplementary` - folder for supplementary files. Name them as `Supplementary_<Table or Figure or File>_<brief description>`. Add legends for supplementary files to `supplementary_legend.md`.
+
+- `references` - BibTex files with references
 
 - `submission` - folder only for files formatted for submission. 
 
@@ -39,6 +39,7 @@ Track/commit only text files (R, md, Rmd, txt, csv)! Do not commit large binary 
 
 	- `Arial_11_double_space_normal_margins.docx` - Arial font, 11 pt, all headers are also Arial, all fonts are black, double-spaced, regular margins
     - `Arial_11_single_space_normal_margins.docx` - Arial font, 11 pt, all headers are also Arial, all fonts are black, single-spaced, regular margins
+    - `Helvetica_11_single_space_normal_margins.docx` - Helvetica font, 11 pt
     - `NIH_grant_style.docx` - Arial font, 11 pt, all headers are also Arial, all fonts are black, narrow margins
     - `nar_word_template.doc` - generic template provided by NAR
     - `Times_12_single_space_normal_margins.docx` - standard formatting
