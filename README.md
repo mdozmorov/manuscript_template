@@ -17,6 +17,9 @@ Track/commit only text files (R, md, Rmd, txt, csv)! Do not commit large binary 
 - Read more, get inspiration from how others present results, what they discuss, which figures they show.
 - As you add files, describe them in the `README.md`. Add brief description of each file.
 
+- Savage, Van, and Pamela Yeh. “Tips from a Pulitzer Prizewinner,” - Tips for writing scientific papers: minimalism = clarity, make 2-3-points home message, one paragraph = one message, use short sentences, use fast-paced narrative, avoid over-elaboration, use commas and dashes appropriately, more.
+
+
 ## Files
 
 - `manuscript.Rmd` - Rmd skeleton of a manuscript
