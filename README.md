@@ -26,7 +26,7 @@ Track/commit only text files (R, md, Rmd, txt, csv)! Do not commit large binary 
 
 ## Reviewing tips
 
-- Guidelines and ideas for providing objective reviews, addressing quality and impact (Box 1). Recommendations on review behavior to avoid (Box 2).
+- Guidelines and ideas for providing objective reviews, addressing quality and impact (Box 1). Recommendations on review behavior to avoid (Box 2). https://immunox.ucsf.edu/future-immunology
     - Krummel, Matthew. “Universal Principled Review: A Community-Driven Method to Improve Peer Review,” 2019
 
 ## Files
