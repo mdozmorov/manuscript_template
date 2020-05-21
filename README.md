@@ -19,6 +19,8 @@ Track/commit only text files (R, md, Rmd, txt, csv)! Do not commit large binary 
 
 - Savage, Van, and Pamela Yeh. “Tips from a Pulitzer Prizewinner,” - Tips for writing scientific papers: minimalism = clarity, make 2-3-points home message, one paragraph = one message, use short sentences, use fast-paced narrative, avoid over-elaboration, use commas and dashes appropriately, more.
 
+- [The Modern Language Association (MLA) citation and format style](https://owl.purdue.edu/owl/research_and_citation/mla_style/mla_style_introduction.html) and other [General Writing Resources](https://owl.purdue.edu/owl/general_writing/index.html) from Purdue University
+
 ## Figure tips
 
 - Rules for better figures: 1) Know your audience; 2) Identify your message; 3) Adapt the figure to the support medium; 4) Captions are not optional; 5) Do not trust the defaults; 6) Use color effectively; 7) Do not mislead the reader; 8) Avoid chartjunk; 9) Message trumps beauty; 10) Get the right tool (Matplotlib, Inkskape, GIMP, others). Examples of good and bad figures.
