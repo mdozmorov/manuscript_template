@@ -4,7 +4,7 @@ csl: styles.ref/genomebiology.csl
 output: 
   word_document:
     reference_docx: styles.doc/NIH_grant_style.docx
-bibliography: [references/3D_refs.bib,references/BRCA.bib,references/brain.bib,references/education.bib.references/enrichment.bib.references/networks.bib,references/statistics.bib]
+bibliography: references/references_MD.bib
 ---
 
 Authors
