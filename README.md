@@ -48,6 +48,8 @@ Track/commit only text files (R, md, Rmd, txt, csv)! Do not commit large binary 
 
 - [The Modern Language Association (MLA) citation and format style](https://owl.purdue.edu/owl/research_and_citation/mla_style/mla_style_introduction.html) and other [General Writing Resources](https://owl.purdue.edu/owl/general_writing/index.html) from Purdue University
 
+- [Creating and publishing a scientific masterpiece](https://youtu.be/w5Cy2mjBxQw) - JCI Editor at Large Ushma S. Neill provides updated advice on generating a scientific manuscript with maximum impact. 40min
+
 ## Figure tips
 
 - Rules for better figures: 1) Know your audience; 2) Identify your message; 3) Adapt the figure to the support medium; 4) Captions are not optional; 5) Do not trust the defaults; 6) Use color effectively; 7) Do not mislead the reader; 8) Avoid chartjunk; 9) Message trumps beauty; 10) Get the right tool (Matplotlib, Inkskape, GIMP, others). Examples of good and bad figures.
