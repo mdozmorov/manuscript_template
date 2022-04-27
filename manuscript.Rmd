@@ -1,10 +1,13 @@
 ---
-title: "Manuscript title"
-csl: styles.ref/genomebiology.csl
+# csl: /Volumes/GoogleDrive/My Drive/manuscript_template/styles.ref/cell-reports.csl
+csl: /Users/mdozmorov/Documents/Work/presentations/Templates/manuscript_template/styles.ref/cell-reports.csl
 output: 
   word_document:
-    reference_docx: styles.doc/NIH_grant_style.docx
-bibliography: references/references_MD.bib
+#    reference_docx: /Volumes/GoogleDrive/My Drive/manuscript_template/styles.doc/NIH_grant_style.docx
+    reference_docx: /Users/mdozmorov/Documents/Work/presentations/Templates/manuscript_template/styles.doc/NIH_grant_style.docx
+# https://github.com/mdozmorov/manuscript_template/tree/master/references
+# bibliography: /Volumes/GoogleDrive/My Drive/manuscript_template/references/references_MD.bib
+bibliography: /Users/mdozmorov/Documents/Work/presentations/Templates/manuscript_template/references/references_MD.bib
 ---
 
 Authors
