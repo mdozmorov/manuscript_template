@@ -1,12 +1,220 @@
 %% This BibTeX bibliography file was created using BibDesk.
 %% https://bibdesk.sourceforge.io/
 
-%% Created for Mikhail Dozmorov at 2022-08-26 15:49:56 -0400 
+%% Created for Mikhail Dozmorov at 2022-09-09 19:47:58 -0400 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
 
 
+
+@unpublished{Klasfeld2022-nn,
+	abstract = {AbstractChromatin immunoprecipitation followed by sequencing
+              (ChIP-seq) is used widely to identify both factor binding to
+              genomic DNA and chromatin modifications. Analysis of ChIP-seq
+              data is impacted by regions of the genome which generate
+              ultra-high artifactual signals. To remove these signals from
+              ChIP-seq data, ENCODE developed blacklists, comprehensive sets of
+              regions defined by low mappability and ultra-high signals for
+              human, mouse, worm, and flies. Currently, blacklists are not
+              available for many model and non-model species. Here we describe
+              an alternative approach for removing false-positive peaks we
+              called ``greenscreen''. Greenscreen is facile to implement,
+              requires few input samples, and uses analysis tools frequently
+              employed for ChIP-seq. We show that greenscreen removes artifact
+              signal as effectively as blacklists in Arabidopsis and human
+              ChIP-seq datasets while covering less of the genome, dramatically
+              improving ChIP-seq data quality. Greenscreen filtering reveals
+              true factor binding overlap and of occupancy changes in different
+              genetic backgrounds or tissues. Because it is effective with as
+              few as three inputs, greenscreen is readily adaptable for use in
+              any species or genome build. Although developed for ChIP-seq,
+              greenscreen also identifies artifact signals from other genomic
+              datasets including CUT\&RUN. Finally, we present an improved
+              ChIP-seq pipeline which incorporates greenscreen, that detects
+              more true peaks than published methods.One Sentence SummaryA
+              facile method for removing artifact signal from ChIP-seq that
+              improves downstream analyses},
+	author = {Klasfeld, Sammy and Wagner, Doris},
+	date-added = {2022-09-08 14:32:33 -0400},
+	date-modified = {2022-09-08 14:32:33 -0400},
+	journal = {bioRxiv},
+	month = mar,
+	title = {Greenscreen decreases Type {I} Errors and increases true peak detection in genomic datasets including {ChIP-seq}},
+	year = 2022}
+
+@article{Montefiori:2017uu,
+	abstract = {ATAC-seq is a high-throughput sequencing technique that identifies open chromatin. Depending on the cell type, ATAC-seq samples may contain ~20-80% of mitochondrial sequencing reads. As the regions of open chromatin of interest are usually located in the nuclear genome, mitochondrial reads are typically discarded from the analysis. We tested two approaches to decrease wasted sequencing in ATAC-seq libraries generated from lymphoblastoid cell lines: targeted cleavage of mitochondrial DNA fragments using CRISPR technology and removal of detergent from the cell lysis buffer. We analyzed the effects of these treatments on the number of usable (unique, non-mitochondrial) reads and the number and quality of peaks called, including peaks identified in enhancers and transcription start sites. Both treatments resulted in considerable reduction of mitochondrial reads (1.7 and 3-fold, respectively). The removal of detergent, however, resulted in increased background and fewer peaks. The highest number of peaks and highest quality data was obtained by preparing samples with the original ATAC-seq protocol (using detergent) and treating them with CRISPR. This strategy reduced the amount of sequencing required to call a high number of peaks, which could lead to cost reduction when performing ATAC-seq on large numbers of samples and in cell types that contain a large amount of mitochondria.},
+	author = {Montefiori, Lindsey and Hernandez, Liana and Zhang, Zijie and Gilad, Yoav and Ober, Carole and Crawford, Gregory and Nobrega, Marcelo and Jo Sakabe, Noboru},
+	date-added = {2022-09-08 07:58:26 -0400},
+	date-modified = {2022-09-08 07:58:26 -0400},
+	doi = {10.1038/s41598-017-02547-w},
+	journal = {Sci Rep},
+	journal-full = {Scientific reports},
+	mesh = {CRISPR-Cas Systems; Cell Line; Cell Nucleus; DNA, Mitochondrial; High-Throughput Nucleotide Sequencing; Humans; Lymphocytes; Mitochondria},
+	month = {05},
+	number = {1},
+	pages = {2451},
+	pmc = {PMC5446398},
+	pmid = {28550296},
+	pst = {epublish},
+	title = {Reducing mitochondrial reads in ATAC-seq using CRISPR/Cas9},
+	volume = {7},
+	year = {2017},
+	bdsk-url-1 = {https://doi.org/10.1038/s41598-017-02547-w}}
+
+@article{Calabrese:2012ti,
+	abstract = {BACKGROUND: NumtS (Nuclear MiTochondrial Sequences) are mitochondrial DNA sequences that, after stress events involving the mitochondrion, colonized the nuclear genome. Accurate mapping of NumtS avoids contamination during mtDNA PCR amplification, thus supplying reliable bases for detecting false heteroplasmies. In addition, since they commonly populate mammalian genomes (especially primates) and are polymorphic, in terms of presence/absence and content of SNPs, they may be used as evolutionary markers in intra- and inter-species population analyses.
+RESULTS: The need for an exhaustive NumtS annotation led us to produce the Reference Human NumtS compilation, followed, as reported in this paper, by those for chimpanzee, rhesus macaque and mouse ones. Identification of NumtS inside the UCSC Genome Browser and their inter-species comparison required the design and the implementation of NumtS tracks, starting from the compilation data. NumtS retrieval through the UCSC Genome Browser, in the species examined, is now feasible at a glance.
+CONCLUSIONS: Analyses involving NumtS tracks, together with other genome element tracks publicly available at the UCSC Genome Browser, can provide deep insight into genome evolution and comparative genomics, thus improving studies dealing with the mechanisms that drove the generation of NumtS. In addition, the NumtS tracks constitute a useful tool in the design of mitochondrial DNA primers.},
+	author = {Calabrese, Francesco Maria and Simone, Domenico and Attimonelli, Marcella},
+	date-added = {2022-09-07 08:07:21 -0400},
+	date-modified = {2022-09-07 08:07:21 -0400},
+	doi = {10.1186/1471-2105-13-S4-S15},
+	journal = {BMC Bioinformatics},
+	journal-full = {BMC bioinformatics},
+	mesh = {Animals; Cell Nucleus; DNA, Mitochondrial; Genes, Mitochondrial; Genome; Humans; Macaca mulatta; Mice; Mitochondria; Pan troglodytes; Software},
+	month = {Mar},
+	pages = {S15},
+	pmc = {PMC3314570},
+	pmid = {22536961},
+	pst = {epublish},
+	title = {Primates and mouse NumtS in the UCSC Genome Browser},
+	volume = {13 Suppl 4},
+	year = {2012},
+	bdsk-url-1 = {https://doi.org/10.1186/1471-2105-13-S4-S15}}
+
+@article{Simone:2011uz,
+	abstract = {BACKGROUND: Eukaryotic nuclear genomes contain fragments of mitochondrial DNA called NumtS (Nuclear mitochondrial Sequences), whose mode and time of insertion, as well as their functional/structural role within the genome are debated issues. Insertion sites match with chromosomal breaks, revealing that micro-deletions usually occurring at non-homologous end joining loci become reduced in presence of NumtS. Some NumtS are involved in recombination events leading to fragment duplication. Moreover, NumtS are polymorphic, a feature that renders them candidates as population markers. Finally, they are a cause of contamination during human mtDNA sequencing, leading to the generation of false heteroplasmies.
+RESULTS: Here we present RHNumtS.2, the most exhaustive human NumtSome catalogue annotating 585 NumtS, 97% of which were here validated in a European individual and in HapMap samples. The NumtS complete dataset and related features have been made available at the UCSC Genome Browser. The produced sequences have been submitted to INSDC databases. The implementation of the RHNumtS.2 tracks within the UCSC Genome Browser has been carried out with the aim to facilitate browsing of the NumtS tracks to be exploited in a wide range of research applications.
+CONCLUSIONS: We aimed at providing the scientific community with the most exhaustive overview on the human NumtSome, a resource whose aim is to support several research applications, such as studies concerning human structural variation, diversity, and disease, as well as the detection of false heteroplasmic mtDNA variants. Upon implementation of the NumtS tracks, the application of the BLAT program on the UCSC Genome Browser has now become an additional tool to check for heteroplasmic artefacts, supported by data available through the NumtS tracks.},
+	author = {Simone, Domenico and Calabrese, Francesco Maria and Lang, Martin and Gasparre, Giuseppe and Attimonelli, Marcella},
+	date-added = {2022-09-07 07:30:17 -0400},
+	date-modified = {2022-09-07 07:30:17 -0400},
+	doi = {10.1186/1471-2164-12-517},
+	journal = {BMC Genomics},
+	journal-full = {BMC genomics},
+	mesh = {Cell Nucleus; Chromosomes, Human; DNA, Mitochondrial; Databases, Genetic; Humans; Karyotype; Mitochondria; Reproducibility of Results; Software},
+	month = {Oct},
+	pages = {517},
+	pmc = {PMC3228558},
+	pmid = {22013967},
+	pst = {epublish},
+	title = {The reference human nuclear mitochondrial sequences compilation validated and implemented on the UCSC genome browser},
+	volume = {12},
+	year = {2011},
+	bdsk-url-1 = {https://doi.org/10.1186/1471-2164-12-517}}
+
+@article{Yunis:1971vc,
+	abstract = {With the assumption that a portion that comprises some 10 percent of the genomes in higher organisms cannot be without a raison d'{\^e}tre, an extensive review led us to conclude that a certain amount of constitutive heterochromatin is essential in multicellular organisms at two levels of organization, chromosomal and nuclear. At the chromosomal level, constitutive heterochromatin is present around vital areas within the chromosomes. Around the centromeres, for example, heterochromatin is believed to confer protection and strength to the centromeric chromatin. Around secondary constrictions, heterochromatic blocks may ensure against evolutionary change of ribosomal cistrons by decreasing the frequency of crossing-over in these cistrons in meiosis and absorbing the effects of mutagenic agents. During meiosis heterochromatin may aid in the initial alignment of chromosomes prior to synapsis and may facilitate speciation by allowing chromosomal rearrangement and providing, through the species specificity of its DNA, barriers against cross-fertilization. At the nuclear level of organization, constitutive heterochromatin may help maintain the proper spatial relationships necessary for the efficient operation of the cell through the stages of mitosis and meiosis. In the unicellular procaryotes, the presence of a small amount of genetic information in one chromosome obviates the need for constitutive heterochromatin and a nuclear membrane. At higher levels of organization, with an increase in the size of the genome and with evolution of cellular and sexual differentiation, the need for compartmentalization and structural components in the nucleus became imminent. The portion of the genome that was concerned with synthesis of ribosomal RNA was enlarged and localized in specific chromosomes, and the centromere became part of each chromosome when the mitotic spindle was developed in evolution. Concomitant with these changes in the genome, repetitive sequences in the form of constitutive heterochromatin appeared, probably as a result of large-scale duplication. The repetitive DNA's were kept through natural selection because of their importance in preserving these vital regions and in maintaining the structural and functional integrity of the nucleus. The association of satellite (or highly repetitive) DNA with constitutive heterochromatin is understandable, since it stresses the importance of the structural rather than transcriptional roles of these entities. Nuclear satellite DNA's have one property in common despite their species specificity, namely heterochromatization. In this sense the apparent species specificity of satellite DNA may be the result of natural selection for duplicated short polynucleotide segments that are nontranscriptional and can be utilized in specific structural roles.},
+	author = {Yunis, J J and Yasmineh, W G},
+	date-added = {2022-09-06 15:49:44 -0400},
+	date-modified = {2022-09-06 15:49:44 -0400},
+	doi = {10.1126/science.174.4015.1200},
+	journal = {Science},
+	journal-full = {Science (New York, N.Y.)},
+	mesh = {Animals; Biological Evolution; Cattle; Cell Nucleus; Chromosomes; Congenital Abnormalities; Cytogenetics; DNA; Guinea Pigs; Heterochromatin; Humans; Karyotyping; Meiosis; Mice; Mitosis; Mutation; Neoplasms; Nucleic Acid Hybridization; Nucleotides; Phenotype; Recombination, Genetic; Sex Chromosomes; Species Specificity},
+	month = {Dec},
+	number = {4015},
+	pages = {1200-9},
+	pmid = {4943851},
+	pst = {ppublish},
+	title = {Heterochromatin, satellite DNA, and cell function. Structural DNA of eucaryotes may support and protect genes and aid in speciation},
+	volume = {174},
+	year = {1971},
+	bdsk-url-1 = {https://doi.org/10.1126/science.174.4015.1200}}
+
+@article{Zimmer:2016wh,
+	abstract = {Finding potent multidrug combinations against cancer and infections is a pressing therapeutic challenge; however, screening all combinations is difficult because the number of experiments grows exponentially with the number of drugs and doses. To address this, we present a mathematical model that predicts the effects of three or more antibiotics or anticancer drugs at all doses based only on measurements of drug pairs at a few doses, without need for mechanistic information. The model provides accurate predictions on available data for antibiotic combinations, and on experiments presented here on the response matrix of three cancer drugs at eight doses per drug. This approach offers a way to search for effective multidrug combinations using a small number of experiments.},
+	author = {Zimmer, Anat and Katzir, Itay and Dekel, Erez and Mayo, Avraham E and Alon, Uri},
+	date-added = {2022-09-02 21:20:54 -0400},
+	date-modified = {2022-09-02 21:20:54 -0400},
+	doi = {10.1073/pnas.1606301113},
+	journal = {Proc Natl Acad Sci U S A},
+	journal-full = {Proceedings of the National Academy of Sciences of the United States of America},
+	keywords = {cancer treatment; drug cocktails; drug combinations; mechanism-free formula; predictive formula},
+	mesh = {Antineoplastic Agents; Antineoplastic Combined Chemotherapy Protocols; Humans; Models, Theoretical; Neoplasms},
+	month = {09},
+	number = {37},
+	pages = {10442-7},
+	pmc = {PMC5027409},
+	pmid = {27562164},
+	pst = {ppublish},
+	title = {Prediction of multidimensional drug dose responses based on measurements of drug pairs},
+	volume = {113},
+	year = {2016},
+	bdsk-url-1 = {https://doi.org/10.1073/pnas.1606301113}}
+
+@article{LOEWE:1953vx,
+	author = {LOEWE, S},
+	date-added = {2022-09-02 21:18:01 -0400},
+	date-modified = {2022-09-02 21:18:01 -0400},
+	journal = {Arzneimittelforschung},
+	journal-full = {Arzneimittel-Forschung},
+	keywords = {DRUGS},
+	mesh = {Drug Combinations; Drug Interactions; Pharmaceutical Preparations},
+	month = {Jun},
+	number = {6},
+	pages = {285-90},
+	pmid = {13081480},
+	pst = {ppublish},
+	title = {The problem of synergism and antagonism of combined drugs},
+	volume = {3},
+	year = {1953}}
+
+@article{Ianevski:2017vf,
+	abstract = {SUMMARY: Rational design of drug combinations has become a promising strategy to tackle the drug sensitivity and resistance problem in cancer treatment. To systematically evaluate the pre-clinical significance of pairwise drug combinations, functional screening assays that probe combination effects in a dose-response matrix assay are commonly used. To facilitate the analysis of such drug combination experiments, we implemented a web application that uses key functions of R-package SynergyFinder, and provides not only the flexibility of using multiple synergy scoring models, but also a user-friendly interface for visualizing the drug combination landscapes in an interactive manner.
+AVAILABILITY AND IMPLEMENTATION: The SynergyFinder web application is freely accessible at https://synergyfinder.fimm.fi ; The R-package and its source-code are freely available at http://bioconductor.org/packages/release/bioc/html/synergyfinder.html .
+CONTACT: jing.tang@helsinki.fi.},
+	author = {Ianevski, Aleksandr and He, Liye and Aittokallio, Tero and Tang, Jing},
+	date-added = {2022-09-02 20:24:42 -0400},
+	date-modified = {2022-09-02 20:24:42 -0400},
+	doi = {10.1093/bioinformatics/btx162},
+	journal = {Bioinformatics},
+	journal-full = {Bioinformatics (Oxford, England)},
+	mesh = {Computational Biology; Drug Combinations; Drug Synergism; Humans; Models, Biological; Software},
+	month = {Aug},
+	number = {15},
+	pages = {2413-2415},
+	pmc = {PMC5554616},
+	pmid = {28379339},
+	pst = {ppublish},
+	title = {SynergyFinder: a web application for analyzing drug combination dose-response matrix data},
+	volume = {33},
+	year = {2017},
+	bdsk-url-1 = {https://doi.org/10.1093/bioinformatics/btx162}}
+
+@article{BLISS:1956tg,
+	author = {BLISS, C I},
+	date-added = {2022-09-02 20:12:42 -0400},
+	date-modified = {2022-09-02 20:12:42 -0400},
+	doi = {10.1128/br.20.4.243-258.1956},
+	journal = {Bacteriol Rev},
+	journal-full = {Bacteriological reviews},
+	keywords = {BACTERIOLOGY},
+	mesh = {Bacteriology; Biological Assay},
+	month = {Dec},
+	number = {4},
+	pages = {243-58},
+	pmc = {PMC180866},
+	pmid = {13403845},
+	pst = {ppublish},
+	title = {The calculation of microbial assays},
+	volume = {20},
+	year = {1956},
+	bdsk-url-1 = {https://doi.org/10.1128/br.20.4.243-258.1956}}
+
+@article{bliss1939toxicity,
+	author = {Bliss, Chester I},
+	date-added = {2022-09-02 20:12:04 -0400},
+	date-modified = {2022-09-02 20:12:04 -0400},
+	journal = {Annals of applied biology},
+	number = {3},
+	pages = {585--615},
+	publisher = {Wiley Online Library},
+	title = {The toxicity of poisons applied jointly 1},
+	volume = {26},
+	year = {1939}}
 
 @article{Moens:2021ww,
 	abstract = {Triple-negative breast cancer (TNBC) is the most aggressive breast cancer subtype, lacking effective therapy. Many TNBCs show remarkable response to carboplatin-based chemotherapy, but often develop resistance over time. With increasing use of carboplatin in the clinic, there is a pressing need to identify vulnerabilities of carboplatin-resistant tumors. In this study, we generated carboplatin-resistant TNBC MDA-MB-468 cell line and patient derived TNBC xenograft models. Mass spectrometry-based proteome profiling demonstrated that carboplatin resistance in TNBC is linked to drastic metabolism rewiring and upregulation of anti-oxidative response that supports cell replication by maintaining low levels of DNA damage in the presence of carboplatin. Carboplatin-resistant cells also exhibited dysregulation of the mitotic checkpoint. A kinome shRNA screen revealed that carboplatin-resistant cells are vulnerable to the depletion of the mitotic checkpoint regulators, whereas the checkpoint kinases CHEK1 and WEE1 are indispensable for the survival of carboplatin-resistant cells in the presence of carboplatin. We confirmed that pharmacological inhibition of CHEK1 by prexasertib in the presence of carboplatin is well tolerated by mice and suppresses the growth of carboplatin-resistant TNBC xenografts. Thus, abrogation of the mitotic checkpoint by CHEK1 inhibition re-sensitizes carboplatin-resistant TNBCs to carboplatin and represents a potential strategy for the treatment of carboplatin-resistant TNBCs.},
