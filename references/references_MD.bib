@@ -1,12 +1,138 @@
 %% This BibTeX bibliography file was created using BibDesk.
 %% https://bibdesk.sourceforge.io/
 
-%% Created for Mikhail Dozmorov at 2022-09-09 19:47:58 -0400 
+%% Created for Mikhail Dozmorov at 2022-10-23 11:47:21 -0400 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
 
 
+
+@article{Chen:2013ac,
+	abstract = {MOTIVATION: Inference of ancestry using genetic data is motivated by applications in genetic association studies, population genetics and personal genomics. Here, we provide methods and software for improved ancestry inference using genome-wide single nucleotide polymorphism (SNP) weights from external reference panels. This approach makes it possible to leverage the rich ancestry information that is available from large external reference panels, without the administrative and computational complexities of re-analyzing the raw genotype data from the reference panel in subsequent studies.
+RESULTS: We extensively validate our approach in multiple African American, Latino American and European American datasets, making use of genome-wide SNP weights derived from large reference panels, including HapMap 3 populations and 6546 European Americans from the Framingham Heart Study. We show empirically that our approach provides much greater accuracy than either the prevailing ancestry-informative marker (AIM) approach or the analysis of genome-wide target genotypes without a reference panel. For example, in an independent set of 1636 European American genome-wide association study samples, we attained prediction accuracy (R(2)) of 1.000 and 0.994 for the first two principal components using our method, compared with 0.418 and 0.407 using 150 published AIMs or 0.955 and 0.003 by applying principal component analysis directly to the target samples. We finally show that the higher accuracy in inferring ancestry using our method leads to more effective correction for population stratification in association studies.
+AVAILABILITY: The SNPweights software is available online at http://www.hsph.harvard.edu/faculty/alkes-price/software/.
+SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.},
+	author = {Chen, Chia-Yen and Pollack, Samuela and Hunter, David J and Hirschhorn, Joel N and Kraft, Peter and Price, Alkes L},
+	date-added = {2022-10-23 11:47:08 -0400},
+	date-modified = {2022-10-23 11:47:09 -0400},
+	doi = {10.1093/bioinformatics/btt144},
+	journal = {Bioinformatics},
+	journal-full = {Bioinformatics (Oxford, England)},
+	mesh = {African Americans; Genome-Wide Association Study; Genotype; HapMap Project; Humans; Polymorphism, Single Nucleotide; Principal Component Analysis; Racial Groups; Software; United States; Whites},
+	month = {Jun},
+	number = {11},
+	pages = {1399-406},
+	pmc = {PMC3661048},
+	pmid = {23539302},
+	pst = {ppublish},
+	title = {Improved ancestry inference using weights from external reference panels},
+	volume = {29},
+	year = {2013},
+	bdsk-url-1 = {https://doi.org/10.1093/bioinformatics/btt144}}
+
+@article{Alexander:2009aa,
+	abstract = {Population stratification has long been recognized as a confounding factor in genetic association studies. Estimated ancestries, derived from multi-locus genotype data, can be used to perform a statistical correction for population stratification. One popular technique for estimation of ancestry is the model-based approach embodied by the widely applied program structure. Another approach, implemented in the program EIGENSTRAT, relies on Principal Component Analysis rather than model-based estimation and does not directly deliver admixture fractions. EIGENSTRAT has gained in popularity in part owing to its remarkable speed in comparison to structure. We present a new algorithm and a program, ADMIXTURE, for model-based estimation of ancestry in unrelated individuals. ADMIXTURE adopts the likelihood model embedded in structure. However, ADMIXTURE runs considerably faster, solving problems in minutes that take structure hours. In many of our experiments, we have found that ADMIXTURE is almost as fast as EIGENSTRAT. The runtime improvements of ADMIXTURE rely on a fast block relaxation scheme using sequential quadratic programming for block updates, coupled with a novel quasi-Newton acceleration of convergence. Our algorithm also runs faster and with greater accuracy than the implementation of an Expectation-Maximization (EM) algorithm incorporated in the program FRAPPE. Our simulations show that ADMIXTURE's maximum likelihood estimates of the underlying admixture coefficients and ancestral allele frequencies are as accurate as structure's Bayesian estimates. On real-world data sets, ADMIXTURE's estimates are directly comparable to those from structure and EIGENSTRAT. Taken together, our results show that ADMIXTURE's computational speed opens up the possibility of using a much larger set of markers in model-based ancestry estimation and that its estimates are suitable for use in correcting for population stratification in association studies.},
+	author = {Alexander, David H and Novembre, John and Lange, Kenneth},
+	date-added = {2022-10-23 11:44:07 -0400},
+	date-modified = {2022-10-23 11:44:07 -0400},
+	doi = {10.1101/gr.094052.109},
+	journal = {Genome Res},
+	journal-full = {Genome research},
+	mesh = {Algorithms; Computational Biology; Europe; Gene Frequency; Genetic Association Studies; Genetics, Population; Genotype; Humans; Inflammatory Bowel Diseases; Jews; Likelihood Functions; Models, Genetic; Polymorphism, Single Nucleotide; Software; Time Factors},
+	month = {Sep},
+	number = {9},
+	pages = {1655-64},
+	pmc = {PMC2752134},
+	pmid = {19648217},
+	pst = {ppublish},
+	title = {Fast model-based estimation of ancestry in unrelated individuals},
+	volume = {19},
+	year = {2009},
+	bdsk-url-1 = {https://doi.org/10.1101/gr.094052.109}}
+
+@article{Hashimoto:2017aa,
+	abstract = {The multidomain CCCTC-binding factor (CTCF), containing a tandem array of 11 zinc fingers (ZFs), modulates the three-dimensional organization of chromatin. We crystallized the human CTCF DNA-binding domain in complex with a known CTCF-binding site. While ZF2 does not make sequence-specific contacts, each finger of ZF3-7 contacts three bases of the 15-bp consensus sequence. Each conserved nucleotide makes base-specific hydrogen bonds with a particular residue. Most of the variable base pairs within the core sequence also engage in interactions with the protein. These interactions compensate for deviations from the consensus sequence, allowing CTCF to adapt to sequence variations. CTCF is sensitive to cytosine methylation at position 2, but insensitive at position 12 of the 15-bp core sequence. These differences can be rationalized structurally. Although included in crystallizations, ZF10 and ZF11 are not visible, while ZF8 and ZF9 span the backbone of the DNA duplex, conferring no sequence specificity but adding to overall binding stability.},
+	author = {Hashimoto, Hideharu and Wang, Dongxue and Horton, John R and Zhang, Xing and Corces, Victor G and Cheng, Xiaodong},
+	date-added = {2022-10-13 14:52:44 -0400},
+	date-modified = {2022-10-13 14:52:44 -0400},
+	doi = {10.1016/j.molcel.2017.05.004},
+	journal = {Mol Cell},
+	journal-full = {Molecular cell},
+	keywords = {C2H2 zinc-finger arrays; CTCF; DNA methylation; DNA-binding adaptability to sequence variations; epigenetics; protein-DNA recognition},
+	mesh = {5-Methylcytosine; Binding Sites; CCCTC-Binding Factor; Cloning, Molecular; Crystallography, X-Ray; DNA; DNA Methylation; Humans; Hydrogen Bonding; Models, Molecular; Nucleic Acid Conformation; Protein Binding; Protein Stability; Repressor Proteins; Structure-Activity Relationship; Trinucleotide Repeats; Zinc Fingers},
+	month = {Jun},
+	number = {5},
+	pages = {711-720.e3},
+	pmc = {PMC5542067},
+	pmid = {28529057},
+	pst = {ppublish},
+	title = {Structural Basis for the Versatile and Methylation-Dependent Binding of CTCF to DNA},
+	volume = {66},
+	year = {2017},
+	bdsk-url-1 = {https://doi.org/10.1016/j.molcel.2017.05.004}}
+
+@article{Pugacheva:2015aa,
+	abstract = {BACKGROUND: CTCF and BORIS (CTCFL), two paralogous mammalian proteins sharing nearly identical DNA binding domains, are thought to function in a mutually exclusive manner in DNA binding and transcriptional regulation.
+RESULTS: Here we show that these two proteins co-occupy a specific subset of regulatory elements consisting of clustered CTCF binding motifs (termed 2xCTSes). BORIS occupancy at 2xCTSes is largely invariant in BORIS-positive cancer cells, with the genomic pattern recapitulating the germline-specific BORIS binding to chromatin. In contrast to the single-motif CTCF target sites (1xCTSes), the 2xCTS elements are preferentially found at active promoters and enhancers, both in cancer and germ cells. 2xCTSes are also enriched in genomic regions that escape histone to protamine replacement in human and mouse sperm. Depletion of the BORIS gene leads to altered transcription of a large number of genes and the differentiation of K562 cells, while the ectopic expression of this CTCF paralog leads to specific changes in transcription in MCF7 cells.
+CONCLUSIONS: We discover two functionally and structurally different classes of CTCF binding regions, 2xCTSes and 1xCTSes, revealed by their predisposition to bind BORIS. We propose that 2xCTSes play key roles in the transcriptional program of cancer and germ cells.},
+	author = {Pugacheva, Elena M and Rivero-Hinojosa, Samuel and Espinoza, Celso A and M{\'e}ndez-Catal{\'a}, Claudia Fabiola and Kang, Sungyun and Suzuki, Teruhiko and Kosaka-Suzuki, Natsuki and Robinson, Susan and Nagarajan, Vijayaraj and Ye, Zhen and Boukaba, Abdelhalim and Rasko, John E J and Strunnikov, Alexander V and Loukinov, Dmitri and Ren, Bing and Lobanenkov, Victor V},
+	date-added = {2022-10-12 14:58:34 -0400},
+	date-modified = {2022-10-12 14:58:34 -0400},
+	doi = {10.1186/s13059-015-0736-8},
+	journal = {Genome Biol},
+	journal-full = {Genome biology},
+	mesh = {Animals; Binding Sites; CCCTC-Binding Factor; Cell Line; Chromatin; DNA; DNA-Binding Proteins; Enhancer Elements, Genetic; Genome; Humans; K562 Cells; Male; Mice; Neoplasms; Nucleotide Motifs; Promoter Regions, Genetic; Protein Binding; Repressor Proteins; Spermatids; Spermatozoa; Transcription, Genetic},
+	month = {Aug},
+	pages = {161},
+	pmc = {PMC4562119},
+	pmid = {26268681},
+	pst = {epublish},
+	title = {Comparative analyses of CTCF and BORIS occupancies uncover two distinct classes of CTCF binding genomic regions},
+	volume = {16},
+	year = {2015},
+	bdsk-url-1 = {https://doi.org/10.1186/s13059-015-0736-8}}
+
+@article{Essien:2009aa,
+	abstract = {BACKGROUND: CTCF (CCCTC-binding factor) is an evolutionarily conserved zinc finger protein involved in diverse functions ranging from negative regulation of MYC, to chromatin insulation of the beta-globin gene cluster, to imprinting of the Igf2 locus. The 11 zinc fingers of CTCF are known to differentially contribute to the CTCF-DNA interaction at different binding sites. It is possible that the differences in CTCF-DNA conformation at different binding sites underlie CTCF's functional diversity. If so, the CTCF binding sites may belong to distinct classes, each compatible with a specific functional role.
+RESULTS: We have classified approximately 26,000 CTCF binding sites in CD4+ T cells into three classes based on their similarity to the well-characterized CTCF DNA-binding motif. We have comprehensively characterized these three classes of CTCF sites with respect to several evolutionary, genomic, epigenomic, transcriptomic and functional features. We find that the low-occupancy sites tend to be cell type specific. Furthermore, while the high-occupancy sites associate with repressive histone marks and greater gene co-expression within a CTCF-flanked block, the low-occupancy sites associate with active histone marks and higher gene expression. We found that the low-occupancy sites have greater conservation in their flanking regions compared to high-occupancy sites. Interestingly, based on a novel class-conservation metric, we observed that human low-occupancy sites tend to be conserved as low-occupancy sites in mouse (and vice versa) more frequently than expected.
+CONCLUSIONS: Our work reveals several key differences among CTCF occupancy-based classes and suggests a critical, yet distinct functional role played by low-occupancy sites.},
+	author = {Essien, Kobby and Vigneau, Sebastien and Apreleva, Sofia and Singh, Larry N and Bartolomei, Marisa S and Hannenhalli, Sridhar},
+	date-added = {2022-10-08 13:22:46 -0400},
+	date-modified = {2022-10-08 13:22:46 -0400},
+	doi = {10.1186/gb-2009-10-11-r131},
+	journal = {Genome Biol},
+	journal-full = {Genome biology},
+	mesh = {Amino Acid Motifs; Binding Sites; CCCTC-Binding Factor; CD4-Positive T-Lymphocytes; DNA; Epigenesis, Genetic; Evolution, Molecular; Genomics; Histones; Humans; Jurkat Cells; Models, Genetic; Multigene Family; Repressor Proteins; Transcription, Genetic},
+	number = {11},
+	pages = {R131},
+	pmc = {PMC3091324},
+	pmid = {19922652},
+	pst = {ppublish},
+	title = {CTCF binding site classes exhibit distinct evolutionary, genomic, epigenomic and transcriptomic features},
+	volume = {10},
+	year = {2009},
+	bdsk-url-1 = {https://doi.org/10.1186/gb-2009-10-11-r131}}
+
+@article{Lee:2022aa,
+	abstract = {The UCSC Genome Browser, https://genome.ucsc.edu, is a graphical viewer for exploring genome annotations. The website provides integrated tools for visualizing, comparing, analyzing, and sharing both publicly available and user-generated genomic datasets. Data highlights this year include a collection of easily accessible public hub assemblies on new organisms, now featuring BLAT alignment and PCR capabilities, and new and updated clinical tracks (gnomAD, DECIPHER, CADD, REVEL). We introduced a new Track Sets feature and enhanced variant displays to aid in the interpretation of clinical data. We also added a tool to rapidly place new SARS-CoV-2 genomes in a global phylogenetic tree enabling researchers to view the context of emerging mutations in our SARS-CoV-2 Genome Browser. Other new software focuses on usability features, including more informative mouseover displays and new fonts.},
+	author = {Lee, Brian T and Barber, Galt P and Benet-Pag{\`e}s, Anna and Casper, Jonathan and Clawson, Hiram and Diekhans, Mark and Fischer, Clay and Gonzalez, Jairo Navarro and Hinrichs, Angie S and Lee, Christopher M and Muthuraman, Pranav and Nassar, Luis R and Nguy, Beagan and Pereira, Tiana and Perez, Gerardo and Raney, Brian J and Rosenbloom, Kate R and Schmelter, Daniel and Speir, Matthew L and Wick, Brittney D and Zweig, Ann S and Haussler, David and Kuhn, Robert M and Haeussler, Maximilian and Kent, W James},
+	date-added = {2022-10-08 12:52:24 -0400},
+	date-modified = {2022-10-08 12:52:24 -0400},
+	doi = {10.1093/nar/gkab959},
+	journal = {Nucleic Acids Res},
+	journal-full = {Nucleic acids research},
+	mesh = {Animals; Databases, Genetic; Genome, Human; Humans; Phylogeny; Polymerase Chain Reaction; SARS-CoV-2; User-Computer Interface; Web Browser; Whole Exome Sequencing},
+	month = {01},
+	number = {D1},
+	pages = {D1115-D1122},
+	pmc = {PMC8728131},
+	pmid = {34718705},
+	pst = {ppublish},
+	title = {The UCSC Genome Browser database: 2022 update},
+	volume = {50},
+	year = {2022},
+	bdsk-url-1 = {https://doi.org/10.1093/nar/gkab959}}
 
 @unpublished{Klasfeld2022-nn,
 	abstract = {AbstractChromatin immunoprecipitation followed by sequencing
