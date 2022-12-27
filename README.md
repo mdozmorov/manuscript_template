@@ -1,3 +1,5 @@
+See [MDtemplate](https://github.com/mdozmorov/MDtemplate) for the latest templates
+
 # Template of a manuscript in Rmd
 
 Track/commit only text files (R, md, Rmd, txt, csv)! Do not commit large binary files (docx, xlsx, pptx, etc.) into GitHub repository. Every time such a file change, it changes completely and gets committed as such. This will grow your GitHub repository very fast. If needed, clean the repository using https://rtyley.github.io/bfg-repo-cleaner/
